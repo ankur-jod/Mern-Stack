@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Ignore node_modules directory
+/node_modules/* binary
+
+# Ignore build output
+/build/* binary
+
+# Ignore log files
+*.log binary
+
+# Set default line ending to LF
+* text eol=lf
